@@ -7,8 +7,8 @@ const MyStory = () => {
     <Container fluid className="bg-[#A4D0D8] text-slate-50">
       <Row>
         <Col className="flex flex-col justify-center items-center h-[70vh]">
-          <h1>My Story</h1>
-          <p className="w-2/3 py-4">
+          <h1 className="font-playfair font-medium">My Story</h1>
+          <p className="w-2/3 py-4 font-dmsans font-medium">
             Jitesh Agrawal, a nomad, and an entrepreneur is an alumnus of NIT
             Raipur. He started his entrepreneurial journey in 2015 and founded
             The Lost Hostels, a backpacker hostel chain based in India. He has

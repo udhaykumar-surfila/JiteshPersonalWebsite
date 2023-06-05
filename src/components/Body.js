@@ -12,7 +12,6 @@ const Body = () => {
       <Home />
       <MyStory />
       <Work />
-      <Blog />
       <Contact />
     </>
   );

@@ -2,8 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        playfair: ["Playfair Display", "serif"],
+        dmsans: ["DM Sans", "sans-serif"],
+      },
+    },
   },
+  important: true,
   plugins: [],
-}
-
+};
