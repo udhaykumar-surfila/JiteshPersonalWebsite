@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import MouseFollower from "mouse-follower";
+import gsap from "gsap";
+import "mouse-follower/src/scss/index.scss";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import Body from "./components/Body";
 
 function App() {
+  MouseFollower.registerGSAP(gsap);
+
+  const cursor = new MouseFollower();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App bg-[#F8F9FA]">
+      <Body />
     </div>
   );
 }
