@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 
 const MyStory = () => {
   return (
-    <Container fluid className="bg-[#A4D0D8]">
+    <Container fluid className="bg-[#A4D0D8] text-slate-50">
       <Row>
         <Col className="flex flex-col justify-center items-center h-[70vh]">
           <h1>My Story</h1>
