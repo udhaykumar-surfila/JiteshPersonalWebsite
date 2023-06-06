@@ -21,7 +21,11 @@ const Work = () => {
               totam eos. Fuga repellendus et, perspiciatis iure vero aperiam
               earum beatae saepe!
             </p>
-            <h6>Learn how to start your own hostel HERE.</h6>
+            <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair">
+              Know more
+            </button>
+
+            <h6 className="mt-4">Learn how to start your own hostel HERE.</h6>
           </div>
           <img src={soul} alt="" className="w-60 h-80 shadow-lg" />
         </Col>
@@ -37,6 +41,9 @@ const Work = () => {
               totam nostrum distinctio maiores sit labore, ab placeat, quae
               magni, et quam suscipit aspernatur?
             </p>
+            <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair">
+              Buy now
+            </button>
           </div>
           <img src={lostsoul} alt="" className="w-60 h-80 shadow-lg" />
         </Col>
@@ -50,6 +57,9 @@ const Work = () => {
               accusantium. Minus molestiae error rerum esse aut soluta eligendi
               officia! Quibusdam.
             </p>
+            <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair">
+              Buy now
+            </button>
           </div>
         </Col>
       </Row>
@@ -65,6 +75,9 @@ const Work = () => {
               accusantium. Minus molestiae error rerum esse aut soluta eligendi
               officia! Quibusdam.
             </p>
+            <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair">
+              Listen now
+            </button>
           </div>
         </Col>
         <Col className="flex justify-center items-center py-10 text-center">
