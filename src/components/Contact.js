@@ -9,7 +9,7 @@ import instagram from "../utils/img/instagram.png";
 
 const Contact = () => {
   return (
-    <Container fluid>
+    <Container fluid id="contact">
       <Row>
         <Col className="flex flex-col justify-center items-center h-[100vh] text-slate-50 bg-black font-dmsans font-medium">
           <h1 className="font-playfair font-medium">Reach Out</h1>
