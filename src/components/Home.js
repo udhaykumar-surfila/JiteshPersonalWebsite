@@ -5,10 +5,10 @@ import mainimg from "../utils/img/jitesh.jpg";
 
 const Home = () => {
   return (
-    <Container fluid className="h-[95vh]" id="home">
+    <Container fluid className="z-10" id="home">
       <Row>
         <Col sm={6} className="">
-          <img src={mainimg} alt="Jitesh" className="w-full h-full -mt-16" />
+          <img src={mainimg} alt="Jitesh" className="w-full h-[100vh] -mt-16"/>
         </Col>
         <Col sm={6} className="flex flex-col justify-center items-center">
           <h1 className="font-playfair font-medium">Jitesh Agrawal</h1>
