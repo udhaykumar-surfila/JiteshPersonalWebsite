@@ -11,7 +11,10 @@ const Contact = () => {
   return (
     <Container fluid id="contact">
       <Row>
-        <Col sm={6} className="flex flex-col justify-center items-center sm:h-[100vh] h-[50vh] text-slate-50 bg-black font-dmsans font-medium">
+        <Col
+          sm={6}
+          className="flex flex-col justify-center items-center sm:h-[100vh] h-[50vh] text-slate-50 bg-black font-dmsans font-medium"
+        >
           <h1 className="font-playfair font-medium">Reach Out</h1>
           <div className="p-12">
             <h3>Jitesh Agrawal</h3>
@@ -27,7 +30,7 @@ const Contact = () => {
             </div>
           </div>
         </Col>
-        <Col sm={6} className="sm:h-[100vh] bg-black">
+        <Col sm={6} className="sm:h-[100vh] bg-black sm:p-0">
           <img
             src={contactimg}
             alt={contactimg}
