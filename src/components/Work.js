@@ -12,7 +12,7 @@ const Work = () => {
     <Container className="" id="">
       <Row>
         <Col
-          className="flex flex-row justify-between items-center py-10 text-center"
+          className="flex sm:flex-row flex-col justify-between items-center py-10 text-center"
           id="hostels"
         >
           <img src={losthostel} alt="" className="w-60 h-80 shadow-lg" />
@@ -53,7 +53,7 @@ const Work = () => {
       </Row>
       <hr></hr>
       <Row id="books">
-        <Col className="flex justify-center items-center py-10 text-center">
+        <Col sm={6} className="flex sm:flex-row flex-col justify-center items-center py-10 text-center">
           <div className="p-4">
             <h1 className="font-playfair font-medium">A Lost Soul</h1>
             <p className="font-dmsans text-center text-gray-400 font-thin text-sm">
@@ -79,7 +79,7 @@ const Work = () => {
           </div>
           <img src={lostsoul} alt="" className="w-60 h-80 shadow-lg" />
         </Col>
-        <Col className="flex justify-center items-center text-center">
+        <Col sm={6} className="flex sm:flex-row flex-col justify-center items-center text-center">
           <img src={lostlove} alt="" className="w-60 h-80 shadow-lg" />
           <div className="p-4">
             <h1 className="font-playfair font-medium">Lost Love</h1>
@@ -105,9 +105,9 @@ const Work = () => {
       </Row>
       <hr></hr>
       <Row>
-        <Col className="flex justify-center items-center py-10 text-center">
+        <Col sm={6} className="flex sm:flex-row flex-col  justify-center items-center py-10 text-center">
           <img src={traveltalks} alt="" className="w-60 shadow-lg" />
-          <div className="p-4">
+          <div className="p-4 sm:border-r-2">
             <h3 className="font-playfair font-medium">Travel Talks with J</h3>
             <p className="font-dmsans text-center text-gray-400 font-thin text-sm">
               Welcome to “Travel Talks with J”, sponsored by The Lost Hostels. I
@@ -129,7 +129,7 @@ const Work = () => {
             </a>
           </div>
         </Col>
-        <Col className="flex justify-center items-center py-10 text-center">
+        <Col sm={6} className="flex justify-center items-center py-10 text-center">
           <h6>
             Text about more things such as being an Angel investor, Life coach
             and mentor. More details such as Lost launchpad, yoga classes etc.

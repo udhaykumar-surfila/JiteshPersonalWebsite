@@ -6,7 +6,7 @@ const MyStory = () => {
   return (
     <Container fluid className="bg-[#A4D0D8] text-slate-50" id="my-story">
       <Row>
-        <Col className="flex flex-col justify-center items-center h-[70vh]">
+        <Col className="flex flex-col justify-center items-center sm:h-[70vh]">
           <h1 className="font-playfair font-medium">My Story</h1>
           <p className="w-2/3 py-4 font-dmsans font-medium text-md">
             Jitesh Agrawal, a nomad, and an entrepreneur is an alumnus of NIT
