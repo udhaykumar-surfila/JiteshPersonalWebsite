@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 const NavBar = () => {
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 50) {
       setColorchange(true);
     } else {
       setColorchange(false);
@@ -21,12 +21,12 @@ const NavBar = () => {
       className="font-dmsans sticky top-0 z-0"
     >
       <Container>
-        <Navbar.Brand href="#home" className="text-slate-50 font-bold text-3xl shadow-lg">
+        <Navbar.Brand href="#home" className="text-slate-50 font-bold text-3xl">
           J.
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto -mr-10">
+          <Nav className="ml-auto -mr-16">
             <Nav.Link
               href="#home"
               className="px-[42px] text-[#A4D0D8] font-medium"
