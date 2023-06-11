@@ -35,7 +35,7 @@ const Work = () => {
               href="https://www.booking.com/hotel/in/the-lost-hostels-goa-palolem-beach.tl.html"
               target="_blank"
             >
-              <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair">
+              <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair shadow-md">
                 Book Now
               </button>
             </a>
@@ -50,7 +50,7 @@ const Work = () => {
               </a>
             </h6>
           </div>
-          <img src={soul} alt="" className="w-60 h-80 shadow-lg sm:mt-0 mt-4" />
+          <img src={soul} alt="" className="w-60 h-80 shadow-md sm:mt-0 mt-4" />
         </Col>
       </Row>
       <hr></hr>
@@ -77,7 +77,7 @@ const Work = () => {
               href="https://www.amazon.in/Lost-Soul-backpackers-journey-discovery/dp/1648997570/ref=sr_1_4?crid=LD6RXMZUR74A&keywords=a+lost+soul&qid=1686158367&s=books&sprefix=a+lost+sou%2Cstripbooks%2C307&sr=1-4"
               target="_blank"
             >
-              <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair">
+              <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair shadow-md">
                 Buy now
               </button>
             </a>
@@ -104,7 +104,7 @@ const Work = () => {
               href="https://www.amazon.in/Lost-Love-backpackers-Journey-Oneness/dp/B0BYKCF228/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
               target="_blank"
             >
-              <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair">
+              <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair shadow-md">
                 Buy now
               </button>
             </a>
@@ -134,7 +134,7 @@ const Work = () => {
               href="https://www.audacy.com/podcast/travel-talks-with-j-3ead4"
               target="_blank"
             >
-              <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair">
+              <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair shadow-md">
                 Listen now
               </button>
             </a>

@@ -15,12 +15,14 @@ const Home = () => {
           />
         </Col>
         <Col sm={6} className="flex flex-col justify-center items-center">
-          <h1 className="font-playfair font-medium mt-4 sm:mt-0">Jitesh Agrawal</h1>
+          <h1 className="font-playfair font-medium mt-4 sm:mt-0">
+            Jitesh Agrawal
+          </h1>
           <h4 className="font-dmsans text-center text-gray-400 font-thin">
             Nomad, Entrepreneur, Author<br></br> and more!
           </h4>
           <a href="#my-story">
-            <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 mt-4 font-playfair">
+            <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 mt-4 font-playfair shadow-md">
               Know more
             </button>
           </a>

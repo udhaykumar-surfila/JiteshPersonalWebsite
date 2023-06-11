@@ -1,12 +1,27 @@
+import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 const NavBar = () => {
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 80) {
+      setColorchange(true);
+    } else {
+      setColorchange(false);
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
+
   return (
-    <Navbar expand="lg" className="font-dmsans sticky top-0 z-0">
+    <Navbar
+      bg={colorChange ? "dark" : ""}
+      expand="lg"
+      className="font-dmsans sticky top-0 z-0"
+    >
       <Container>
-        <Navbar.Brand href="#home" className="text-slate-50 font-bold text-3xl">
+        <Navbar.Brand href="#home" className="text-slate-50 font-bold text-3xl shadow-lg">
           J.
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
