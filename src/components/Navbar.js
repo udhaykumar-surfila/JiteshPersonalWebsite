@@ -17,6 +17,7 @@ const NavBar = () => {
   return (
     <Navbar
       bg={colorChange ? "dark" : ""}
+      variant={colorChange ? "dark" : ""}
       expand="lg"
       className="font-dmsans sticky top-0 z-0"
     >
