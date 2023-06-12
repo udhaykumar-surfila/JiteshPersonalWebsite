@@ -18,7 +18,7 @@ const Work = () => {
         >
           <a
             href="https://www.hostelworld.com/st/hostels/p/300222/the-lost-hostel-goa-palolem-beach/"
-            className="w-1/2"
+            className="sm:w-1/2"
             target="_blank"
           >
             <img src={losthostel} alt="" className="w-80 h-80 shadow-lg" />
@@ -58,7 +58,7 @@ const Work = () => {
           <a
             href="https://www.hostelworld.com/st/hostels/p/315943/soul-varkala/"
             target="_blank"
-            className="w-1/2"
+            className="sm:w-1/2"
           >
             <img src={soul} alt="" className="h-80 shadow-md sm:mt-0 mt-4" />
           </a>
