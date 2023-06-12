@@ -16,7 +16,13 @@ const Work = () => {
           className="flex sm:flex-row flex-col justify-between items-center py-10 text-center"
           id="hostels"
         >
-          <img src={losthostel} alt="" className="w-60 h-80 shadow-lg" />
+          <a
+            href="https://www.hostelworld.com/st/hostels/p/300222/the-lost-hostel-goa-palolem-beach/"
+            className="w-1/2"
+            target="_blank"
+          >
+            <img src={losthostel} alt="" className="w-80 h-80 shadow-lg" />
+          </a>
           <div>
             <h1 className="font-playfair font-medium sm:mt-0 mt-4">
               The Lost Hostels
@@ -32,11 +38,8 @@ const Work = () => {
               guests to easily access the city's top attractions, nightlife, and
               cultural experiences.
             </p>
-            <a
-              href="https://www.hostelworld.com/st/hostels/p/300222/the-lost-hostel-goa-palolem-beach/"
-              target="_blank"
-            >
-              <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair shadow-md">
+            <a href="https://thelosthostels.com/" target="_blank">
+              <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair shadow-md font-semibold">
                 Book Now
               </button>
             </a>
@@ -52,7 +55,13 @@ const Work = () => {
               </a>
             </h6>
           </div>
-          <img src={soul} alt="" className="w-60 h-80 shadow-md sm:mt-0 mt-4" />
+          <a
+            href="https://www.hostelworld.com/st/hostels/p/315943/soul-varkala/"
+            target="_blank"
+            className="w-1/2"
+          >
+            <img src={soul} alt="" className="h-80 shadow-md sm:mt-0 mt-4" />
+          </a>
         </Col>
       </Row>
       <hr></hr>
@@ -79,7 +88,7 @@ const Work = () => {
               href="https://www.amazon.in/Lost-Soul-backpackers-journey-discovery/dp/1648997570/ref=sr_1_4?crid=LD6RXMZUR74A&keywords=a+lost+soul&qid=1686158367&s=books&sprefix=a+lost+sou%2Cstripbooks%2C307&sr=1-4"
               target="_blank"
             >
-              <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair shadow-md">
+              <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair shadow-md font-semibold">
                 Buy now
               </button>
             </a>
@@ -106,7 +115,7 @@ const Work = () => {
               href="https://www.amazon.in/Lost-Love-backpackers-Journey-Oneness/dp/B0BYKCF228/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
               target="_blank"
             >
-              <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair shadow-md">
+              <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair shadow-md font-semibold">
                 Buy now
               </button>
             </a>
@@ -119,7 +128,7 @@ const Work = () => {
           sm={6}
           className="flex sm:flex-row flex-col  justify-center items-center py-10 text-center"
         >
-          <img src={traveltalks} alt="" className="w-60 shadow-lg" />
+          <img src={traveltalks} alt="" className="w-60 h-60 shadow-lg" />
           <div className="p-4 sm:border-r-2">
             <h3 className="font-playfair font-medium">Travel Talks with J</h3>
             <p className="font-dmsans text-center text-gray-400 font-thin text-sm">
@@ -132,11 +141,12 @@ const Work = () => {
               share their own experiences and perspectives on how travel has
               transformed their lives. Let’s go!
             </p>
+
             <a
-              href="https://www.audacy.com/podcast/travel-talks-with-j-3ead4"
+              href="https://open.spotify.com/show/0UM7si9uE8C0WCIZVW84Hj?si=8066c6759c46478f"
               target="_blank"
             >
-              <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair shadow-md">
+              <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair shadow-md font-semibold">
                 Listen now
               </button>
             </a>
@@ -153,7 +163,8 @@ const Work = () => {
               mentor, and life coach, empowering others to pursue their dreams
               and venture into entrepreneurship or hostel ownership. In his
               recent initiative, the Lost Launchpad program, he personally
-              mentored six individuals, following a similar path. Alongside his
+              mentored six individuals, following a similar path. This program
+              will be held every 6 months.<br></br> Alongside his
               entrepreneurial endeavors, he is deeply immersed in the realms of
               yoga and spirituality. At his hostels, he conducts yoga classes,
               fostering a holistic and balanced lifestyle for guests.

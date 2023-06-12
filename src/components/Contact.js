@@ -23,13 +23,16 @@ const Contact = () => {
           <div>
             <p>CONNECT WITH ME</p>
             <div className="flex justify-between">
-              <a href="/" target="_blank">
+              <a
+                href="https://www.instagram.com/thelosthostels/"
+                target="_blank"
+              >
                 <img src={instagram} alt="instagram" className="w-8"></img>
               </a>
               <a href="https://twitter.com/jiteshjam" target="_blank">
                 <img src={twitter} alt="twitter" className="w-8"></img>
               </a>
-              <a href="/" target="_blank">
+              <a href="https://www.facebook.com/losthostelgoa/" target="_blank">
                 <img src={facebook} alt="facebook" className="w-8"></img>
               </a>
               <a
