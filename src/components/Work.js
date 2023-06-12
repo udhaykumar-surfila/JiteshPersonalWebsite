@@ -6,6 +6,7 @@ import soul from "../utils/img/soul.jpg";
 import lostsoul from "../utils/img/lostsoul.jpg";
 import lostlove from "../utils/img/lostlove.webp";
 import traveltalks from "../utils/img/traveltalks.jpg";
+import yoga from "../utils/img/yoga.webp";
 
 const Work = () => {
   return (
@@ -45,6 +46,7 @@ const Work = () => {
               <a
                 href="https://jiteshagrawal.graphy.com/courses/Idea-to-Reality---Opening-your-own-Backpacking-Hostel-63c7b927e4b00645150ea5ca"
                 target="_blank"
+                className=" text-black"
               >
                 HERE.
               </a>
@@ -142,12 +144,21 @@ const Work = () => {
         </Col>
         <Col
           sm={6}
-          className="flex justify-center items-center py-10 text-center"
+          className="flex sm:flex-row flex-col  justify-center items-center py-10 text-center"
         >
-          <h6>
-            Text about more things such as being an Angel investor, Life coach
-            and mentor. More details such as Lost launchpad, yoga classes etc.
-          </h6>
+          <img src={yoga} alt="" className="w-60 h-60 shadow-lg" />
+          <div className="p-4">
+            <p className="font-dmsans text-center text-gray-400 font-thin text-sm">
+              A multi-talented individual, he also serves as an angel investor,
+              mentor, and life coach, empowering others to pursue their dreams
+              and venture into entrepreneurship or hostel ownership. In his
+              recent initiative, the Lost Launchpad program, he personally
+              mentored six individuals, following a similar path. Alongside his
+              entrepreneurial endeavors, he is deeply immersed in the realms of
+              yoga and spirituality. At his hostels, he conducts yoga classes,
+              fostering a holistic and balanced lifestyle for guests.
+            </p>
+          </div>
         </Col>
       </Row>
     </Container>

@@ -23,10 +23,10 @@ const Contact = () => {
           <div>
             <p>CONNECT WITH ME</p>
             <div className="flex justify-between">
-              <img src={instagram} alt="instagram"></img>
-              <img src={twitter} alt="twitter"></img>
-              <img src={facebook} alt="facebook"></img>
-              <img src={linkedin} alt="linkedin"></img>
+              <img src={instagram} alt="instagram" className="w-8"></img>
+              <img src={twitter} alt="twitter" className="w-8"></img>
+              <img src={facebook} alt="facebook" className="w-8"></img>
+              <img src={linkedin} alt="linkedin" className="w-8"></img>
             </div>
           </div>
         </Col>

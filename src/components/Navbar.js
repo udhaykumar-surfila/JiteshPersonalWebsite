@@ -30,31 +30,31 @@ const NavBar = () => {
           <Nav className="ml-auto -mr-16">
             <Nav.Link
               href="#home"
-              className="px-[42px] text-[#A4D0D8] font-medium"
+              className="px-[42px] text-[#75b2bc] font-medium"
             >
               Home
             </Nav.Link>
             <Nav.Link
               href="#my-story"
-              className="px-[42px] text-[#A4D0D8] font-medium"
+              className="px-[42px] text-[#75b2bc] font-medium"
             >
               My Story
             </Nav.Link>
             <Nav.Link
               href="#hostels"
-              className="px-[42px] text-[#A4D0D8] font-medium"
+              className="px-[42px] text-[#75b2bc] font-medium"
             >
               Hostels
             </Nav.Link>
             <Nav.Link
               href="#books"
-              className="px-[42px] text-[#A4D0D8] font-medium"
+              className="px-[42px] text-[#75b2bc] font-medium"
             >
               Books
             </Nav.Link>
             <Nav.Link
               href="#contact"
-              className="px-[42px] text-[#A4D0D8] font-medium"
+              className="px-[42px] text-[#75b2bc] font-medium"
             >
               Contact
             </Nav.Link>
