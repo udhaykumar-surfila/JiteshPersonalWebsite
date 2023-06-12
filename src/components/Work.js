@@ -33,7 +33,7 @@ const Work = () => {
               cultural experiences.
             </p>
             <a
-              href="https://www.booking.com/hotel/in/the-lost-hostels-goa-palolem-beach.tl.html"
+              href="https://www.hostelworld.com/st/hostels/p/300222/the-lost-hostel-goa-palolem-beach/"
               target="_blank"
             >
               <button className="text-slate-100 bg-[#A4D0D8] p-2 px-4 font-playfair shadow-md">

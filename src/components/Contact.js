@@ -23,10 +23,21 @@ const Contact = () => {
           <div>
             <p>CONNECT WITH ME</p>
             <div className="flex justify-between">
-              <img src={instagram} alt="instagram" className="w-8"></img>
-              <img src={twitter} alt="twitter" className="w-8"></img>
-              <img src={facebook} alt="facebook" className="w-8"></img>
-              <img src={linkedin} alt="linkedin" className="w-8"></img>
+              <a href="/" target="_blank">
+                <img src={instagram} alt="instagram" className="w-8"></img>
+              </a>
+              <a href="https://twitter.com/jiteshjam" target="_blank">
+                <img src={twitter} alt="twitter" className="w-8"></img>
+              </a>
+              <a href="/" target="_blank">
+                <img src={facebook} alt="facebook" className="w-8"></img>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jiteshagrawal1/?originalSubdomain=in"
+                target="_blank"
+              >
+                <img src={linkedin} alt="linkedin" className="w-8"></img>
+              </a>
             </div>
           </div>
         </Col>
