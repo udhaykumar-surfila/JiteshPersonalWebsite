@@ -54,7 +54,11 @@ const Contact = () => {
         </Col>
       </Row>
       <p className="text-white text-xs bg-black w-full text-right p-1 absolute left-0">
-        <a href="https://www.linkedin.com/in/vanshika-bhojnagarwala/" className="text-white decoration-black">
+        <a
+          href="https://www.linkedin.com/in/vanshika-bhojnagarwala/"
+          target="_blank"
+          className="text-white decoration-black"
+        >
           &lt;Developed by V/&gt;
         </a>
       </p>
