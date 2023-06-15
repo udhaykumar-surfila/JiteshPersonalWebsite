@@ -11,7 +11,7 @@ const Home = () => {
           <img
             src={mainimg}
             alt="Jitesh"
-            className="w-full sm:h-[100vh] sm:-mt-16"
+            className="w-full sm:h-[100vh] sm:-mt-16 object-cover"
           />
         </Col>
         <Col sm={7} className="flex flex-col justify-center items-center">

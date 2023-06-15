@@ -13,15 +13,15 @@ const Work = () => {
     <Container className="" id="">
       <Row>
         <Col
-          className="flex sm:flex-row flex-col justify-between items-center py-10 text-center"
+          className="flex sm:flex-row flex-col justify-between items-center py-10 text-center w-screen"
           id="hostels"
         >
           <a
-            href="https://www.hostelworld.com/st/hostels/p/300222/the-lost-hostel-goa-palolem-beach/"
+            href="https://thelosthostels.com/"
             className="sm:w-1/2"
             target="_blank"
           >
-            <img src={losthostel} alt="" className="w-80 h-80 shadow-lg" />
+            <img src={losthostel} alt="" className="w-full h-80 shadow-lg" />
           </a>
           <div>
             <h1 className="font-playfair font-medium sm:mt-0 mt-4">
@@ -56,11 +56,15 @@ const Work = () => {
             </h6>
           </div>
           <a
-            href="https://www.hostelworld.com/st/hostels/p/315943/soul-varkala/"
+            href="https://thelosthostels.com/"
             target="_blank"
             className="sm:w-1/2"
           >
-            <img src={soul} alt="" className="h-80 shadow-md sm:mt-0 mt-4" />
+            <img
+              src={soul}
+              alt=""
+              className="w-full h-80 shadow-md sm:mt-0 mt-4"
+            />
           </a>
         </Col>
       </Row>
@@ -70,7 +74,7 @@ const Work = () => {
           sm={6}
           className="flex sm:flex-row flex-col-reverse justify-center items-center py-10 text-center"
         >
-          <div className="p-4">
+          <div className="p-4 sm:w-8/12">
             <h1 className="font-playfair font-medium">A Lost Soul</h1>
             <p className="font-dmsans text-center text-gray-400 font-thin text-sm">
               This book is a tale of a lost soul consumed by the glamor of this
@@ -93,14 +97,26 @@ const Work = () => {
               </button>
             </a>
           </div>
-          <img src={lostsoul} alt="" className="w-60 h-80 shadow-lg" />
+          <a
+            href="https://www.amazon.in/Lost-Soul-backpackers-journey-discovery/dp/1648997570/ref=sr_1_4?crid=LD6RXMZUR74A&keywords=a+lost+soul&qid=1686158367&s=books&sprefix=a+lost+sou%2Cstripbooks%2C307&sr=1-4"
+            target="_blank"
+            className="sm:w-4/12"
+          >
+            <img src={lostsoul} alt="" className="w-60 h-80 shadow-lg" />
+          </a>
         </Col>
         <Col
           sm={6}
           className="flex sm:flex-row flex-col justify-center items-center text-center"
         >
-          <img src={lostlove} alt="" className="w-60 h-80 shadow-lg" />
-          <div className="p-4">
+          <a
+            href="https://www.amazon.in/Lost-Love-backpackers-Journey-Oneness/dp/B0BYKCF228/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+            target="_blank"
+            className="sm:w-4/12"
+          >
+            <img src={lostlove} alt="" className="w-60 h-80 shadow-lg" />
+          </a>
+          <div className="p-4 sm:w-8/12">
             <h1 className="font-playfair font-medium">Lost Love</h1>
             <p className="font-dmsans text-center text-gray-400 font-thin">
               J and Anu meet in a surf beach town in the west of India where
@@ -128,8 +144,18 @@ const Work = () => {
           sm={6}
           className="flex sm:flex-row flex-col  justify-center items-center py-10 text-center"
         >
-          <img src={traveltalks} alt="" className="w-60 h-60 shadow-lg" />
-          <div className="p-4 sm:border-r-2">
+          <a
+            href="https://open.spotify.com/show/0UM7si9uE8C0WCIZVW84Hj?si=8066c6759c46478f"
+            target="_blank"
+            className="sm:w-4/12"
+          >
+            <img
+              src={traveltalks}
+              alt=""
+              className="w-60 h-60 shadow-lg w-full"
+            />
+          </a>
+          <div className="p-4 sm:border-r-2 sm:w-8/12">
             <h3 className="font-playfair font-medium">Travel Talks with J</h3>
             <p className="font-dmsans text-center text-gray-400 font-thin text-sm">
               Welcome to “Travel Talks with J”, sponsored by The Lost Hostels. I

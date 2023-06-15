@@ -44,14 +44,20 @@ const Contact = () => {
             </div>
           </div>
         </Col>
+
         <Col sm={6} className="sm:h-[100vh] bg-black sm:p-0">
           <img
             src={contactimg}
             alt={contactimg}
-            className="sm:h-[100vh] bg-black float-right"
+            className="sm:h-[100vh] bg-black float-right object-cover"
           />
         </Col>
       </Row>
+      <p className="text-white text-xs bg-black w-full text-right p-1 absolute left-0">
+        <a href="https://www.linkedin.com/in/vanshika-bhojnagarwala/" className="text-white decoration-black">
+          &lt;Developed by V/&gt;
+        </a>
+      </p>
     </Container>
   );
 };
