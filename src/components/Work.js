@@ -185,7 +185,7 @@ const Work = () => {
           <img src={yoga} alt="" className="w-60 h-60 shadow-lg" />
           <div className="p-4">
             <p className="font-dmsans text-center text-gray-400 font-thin text-sm">
-              A multi-talented individual, he also serves as an angel investor,
+              He also serves as an angel investor,
               mentor, and life coach, empowering others to pursue their dreams
               and venture into entrepreneurship or hostel ownership. In his
               recent initiative, the Lost Launchpad program, he personally
